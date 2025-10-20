@@ -18,7 +18,7 @@ Notes:
   • Targets are editable in the Settings tab. Defaults are reasonable for a 22 y/o male.
   • Units: grams for solids, milliliters for liquids (treat 1 ml ≈ 1 g if density ~ water).
 """
-
+import requests
 import json
 import os
 import sqlite3
